@@ -33,6 +33,7 @@ export default function BlogListHome() {
                   summary
                   slug
                   title
+                  author
                   featuredImage {
                     childImageSharp {
                       fluid(maxWidth: 540, maxHeight: 360, quality: 80) {
