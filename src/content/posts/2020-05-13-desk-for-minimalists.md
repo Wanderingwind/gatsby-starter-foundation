@@ -8,7 +8,7 @@ date: 2017-01-11 06:00
 description: "When a celebrity suicide or unexpected death is splashed all over
   the media, the question becomes: How do we talk to our kids about this?"
 featuredImage: /assets/depression.jpg
-author: Madeleine Deliee
+author: Madeleine Deliee, Esq.
 ---
 I was 13 years old when “Dead Poets Society” came out; my friends and I spent copious amounts of time analyzing it. Yes, I adored Robert Sean Leonard, but it was his character’s suicide, because he felt misunderstood by his father and hemmed in by an already-scripted future, that remains most clearly emblazoned on my memory. The dramatic music builds to an emotional climax, and the snowy darkness mirrors the character’s suffering.
 
