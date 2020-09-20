@@ -45,7 +45,7 @@ collections:
           required: false,
           tagname: ''
         }
-
+      - { label: 'Author', name: 'author', widget: 'markdown', hint: 'This is where you put your name, beautiful.' }  
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
   - label: "Pages"
     name: "pages"
