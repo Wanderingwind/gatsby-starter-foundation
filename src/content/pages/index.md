@@ -1,11 +1,11 @@
 ---
 template: index-page
 slug: /
-title: Wyatt Morriss
-tagline: Graphic Designer
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+title: Maddy's Musings
+tagline: Writer. Teacher. Mother. Book-pusher.
+featuredImage: /assets/madeleine-placeholder.jpg
 cta:
-  ctaText: Know more
-  ctaLink: /about
+  ctaText: My musings
+  ctaLink: /blog
 ---
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+I like to write and talk about education, parenting, film, theatre, young adult literature, sci-fi/geek culture, and food. Any of these combined? Even better.
