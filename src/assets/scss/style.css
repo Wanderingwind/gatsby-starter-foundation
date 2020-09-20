@@ -2,12 +2,12 @@
   --font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   --font-family-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
   --font-size-small: 12px;
-  --primary-color: #b8bedd;
-  --header-bg: #b8bedd;
-  --home-link-color: #A1613F;
+  --primary-color: #9c89b8;
+  --header-bg: #9c89b8;
+  --home-link-color: #96176c;
   --home-link-hover-color:  var(--primary-color);
-  --button-color: #9c89b8;
-  --button-alternate-color: #f0a6ca;
+  --button-color: #fff;
+  --button-alternate-color: #fff;
   --post-link-color: #0F070B;
   --nav-link-hover-bg: #111;
   --text-color-meta: rgba(0,0,0,0.5);
