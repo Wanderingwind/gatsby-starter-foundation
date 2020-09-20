@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: Character design
+title: Character design and you
 slug: /character-design
 date: 2020-05-23 23:40
 description: How to draw a character
