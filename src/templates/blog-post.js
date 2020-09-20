@@ -64,7 +64,7 @@ const Post = ({ data, pageContext }) => {
             />
           ) : ""}
         </header>
-        <p style="text-align:text-center;">{frontmatter.author}</p>
+        <p>{frontmatter.author}</p>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
