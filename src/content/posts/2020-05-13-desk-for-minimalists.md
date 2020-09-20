@@ -3,6 +3,7 @@ template: blog-post
 title: Desk for minimalists
 slug: /minimalists-desk
 date: 2020-05-13 12:46
+summary: Bax is the puppy mechanical in any way? Maybe I love you so much I love you no matter who you are pretending to be.
 description: sdasd
 featuredImage: /assets/bench-accounting-nvzvopqw0gc-unsplash.jpg
 ---

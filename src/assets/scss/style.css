@@ -136,10 +136,6 @@ a:hover {
   }
 }
 
-body {
-  background: gray;
-}
-
 .primary-container main {
   min-height: calc(100vh - 60px - 81px);
 }
