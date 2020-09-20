@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: We need to talk to kids about suicide without glamorizing it. Here’s how.
-slug: /minimalists-desk
+slug: /suicide-and-media
 summary: "When a celebrity suicide or unexpected death is splashed all over the
   media, the question becomes: How do we talk to our kids about this?"
 date: 2017-01-11 06:00
