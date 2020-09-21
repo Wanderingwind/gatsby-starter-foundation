@@ -75,13 +75,6 @@ module.exports = {
         trackingId: settings.ga,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-sass`,
-    //   options: {
-    //     // Configure SASS to process Tailwind
-    //     postCssPlugins: [require('tailwindcss')],
-    //   },
-    // },
     `gatsby-plugin-advanced-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -95,7 +88,13 @@ module.exports = {
         icon: `static/assets/stackrole.png`,
       },
     },
-
+    `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        postCssPlugins: [require('tailwindcss')],
+      },
+    },
     'gatsby-plugin-offline',
   ],
 }
