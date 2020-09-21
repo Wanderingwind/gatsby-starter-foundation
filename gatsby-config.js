@@ -16,6 +16,14 @@ module.exports = {
   siteMetadata: settings.meta,
   plugins: [
     {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        postCssPlugins: [
+          require("tailwindcss"),
+        ],
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/assets/`,
@@ -88,6 +96,7 @@ module.exports = {
         icon: `static/assets/stackrole.png`,
       },
     },
+
     'gatsby-plugin-offline',
   ],
 }
