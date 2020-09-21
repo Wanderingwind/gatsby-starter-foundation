@@ -63,9 +63,9 @@ const Post = ({ data, pageContext }) => {
               className="featured-image"
             />
           ) : ""}
-          <p className="text-center">{frontmatter.date}</p>
-        </header>
 
+        </header>
+        <p className="text-center">{frontmatter.date}</p>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
