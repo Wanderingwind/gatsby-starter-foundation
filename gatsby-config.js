@@ -88,12 +88,6 @@ module.exports = {
         icon: `static/assets/stackrole.png`,
       },
     },
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        postCssPlugins: [require('tailwindcss')],
-      },
-    },
     'gatsby-plugin-offline',
   ],
 }
