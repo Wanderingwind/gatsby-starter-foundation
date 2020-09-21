@@ -93,6 +93,7 @@ export const pageQuery = graphql`
         slug
         title
         description
+        author
         featuredImage {
           childImageSharp {
             fluid(maxWidth: 1980, maxHeight: 768, quality: 80, srcSetBreakpoints: [350, 700, 1050, 1400]) {
