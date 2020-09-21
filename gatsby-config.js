@@ -74,6 +74,12 @@ module.exports = {
       options: {
         trackingId: settings.ga,
       },
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        postCssPlugins: [
+          require("tailwindcss"),
+        ],
+      },
     },
     `gatsby-plugin-advanced-sitemap`,
     {

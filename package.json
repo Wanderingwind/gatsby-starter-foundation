@@ -55,6 +55,7 @@
     "prettier": "2.0.5",
     "react-refresh": "^0.8.2",
     "redux": "^3.0.0",
+    "tailwindcss": "^1.8.10",
     "typescript": "^3.9.2"
   }
 }
