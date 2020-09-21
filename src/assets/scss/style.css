@@ -677,6 +677,10 @@ article img {
   text-align: right;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .icon {
   display: inline-block;
   line-height: inherit;

@@ -63,7 +63,7 @@ const Post = ({ data, pageContext }) => {
               className="featured-image"
             />
           ) : ""}
-          <p>{frontmatter.date}</p>
+          <p className="text-center">{frontmatter.date}</p>
         </header>
 
         <div
