@@ -42,7 +42,7 @@ const HomePage = ({ data }) => {
     <Layout>
       <SEO />
       <div className="flex flex-col justify-between max-w-xl px-4 mx-auto pb-16 lg:pt-16 lg:flex-row md:px-1 lg:max-w-screen-xl">
-        <div className="pt-16 mb-16 lg:mb-0 lg:pt-20 lg:max-w-lg lg:pr-5">
+        <div className="pt-16 mb-16 lg:mb-0 lg:pt-20 lg:max-w-xl lg:pr-5">
           <div className="max-w-xl mb-6">
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
               Writer. Teacher. Mother.
@@ -65,7 +65,7 @@ const HomePage = ({ data }) => {
           <Img
             fluid={Image}
             alt={frontmatter.title + ' - Featured image'}
-            className="object-cover object-top w-full h-64 mx-auto lg:h-auto xl:mr-24 md:max-w-lg featured-image"
+            className="object-cover object-top w-full h-64 mx-auto lg:h-auto xl:mr-0 md:max-w-xl featured-image gatsby-image-wrapper"
           />
         ) : ""}
 
