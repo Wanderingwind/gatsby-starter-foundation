@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Foundation",
+    "title": "Madeleine Deliee",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
-    "siteUrl": "https://affectionate-johnson-450a3b.netlify.app/",
+    "description": "A blog collecting 20 years of musings.",
+    "siteUrl": "https://www.madeleinedeliee.com/",
     "image": "/assets/stackrole.png",
-    "twitterUsername": "@stackrole"
+    "twitterUsername": "@MMDeliee"
   },
   "ga": "UA-XXXXXXXXX-X"
 }
