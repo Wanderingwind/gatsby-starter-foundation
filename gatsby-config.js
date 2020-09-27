@@ -11,7 +11,7 @@ const netlifyCmsPaths = {
 }
 
 const settings = require("./src/util/site.json")
-
+const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   siteMetadata: settings.meta,
   theme: {
