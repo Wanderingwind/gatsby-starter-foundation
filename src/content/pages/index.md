@@ -2,7 +2,8 @@
 template: index-page
 slug: /
 title: Maddy's Musings
-tagline: Writer. Teacher. Mother. Book-pusher.
+tagline: Writer. Teacher. Mother. Book-pusher. <span class="inline-block
+  text-deep-purple-accent-400">book-pusher.</span>
 featuredImage: /assets/madeleine-placeholder.jpg
 cta:
   ctaText: My musings
