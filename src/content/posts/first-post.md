@@ -2,9 +2,14 @@
 template: blog-post
 title: Book Shelf
 slug: /book-shelf
-date: 2019-07-10T00:00:00.000Z
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat.
+date: 2016-07-09 20:00
 description: sdasd
 featuredImage: /assets/avery-klein-c_drtsnboqa-unsplash.jpg
+author: Madeleine Deliee
 ---
 Uh, is the puppy mechanical in any way? Maybe I love you so much I love you no matter who you are pretending to be. If rubbin' frozen dirt in your crotch is wrong, hey I don't wanna be right. I found what I need. And it's not friends, it's things.
 
