@@ -41,20 +41,19 @@ const HomePage = ({ data }) => {
   return (
     <Layout>
       <SEO />
-      <div className="flex flex-col justify-between max-w-xl px-4 mx-auto lg:pt-16 lg:flex-row md:px-8 lg:max-w-screen-xl">
-        <div className="pt-16 mb-16 lg:mb-0 lg:pt-32 lg:max-w-lg lg:pr-5">
+      <div className="flex flex-col justify-between max-w-xl px-4 mx-auto pb-16 lg:pt-16 lg:flex-row md:px-1 lg:max-w-screen-xl">
+        <div className="pt-16 mb-16 lg:mb-0 lg:pt-20 lg:max-w-lg lg:pr-5">
           <div className="max-w-xl mb-6">
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
               Writer. Teacher. Mother.
-            <br className="hidden md:block" />
-            A bit of a {' '}
+              <br className="hidden md:block" />
+              A bit of a {' '}
               <span className="inline-block text-deep-purple-accent-400">
                 book-pusher.
-            </span>
+              </span>
             </h2>
-            <p className="text-base text-gray-700 md:text-lg">
-              I like to write and talk about education, parenting, film, theatre, young adult literature, sci-fi/geek culture, and food. Any of these combined? Even better.
-          </p>
+            <div className="text-base text-gray-700 md:text-lg" dangerouslySetInnerHTML={{ __html: html }} />
+
           </div>
           <div className="flex items-center">
             <Link to={frontmatter.cta.ctaLink} className="inline-flex mr-0 md:mr-4 items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">{frontmatter.cta.ctaText}<span class="icon -right"><RiArrowRightSLine /></span></Link>
@@ -71,24 +70,7 @@ const HomePage = ({ data }) => {
         ) : ""}
 
       </div>
-      <div className="home-banner grids col-1 sm-2">
-        <div>
-          <h1 className="title">{frontmatter.title}</h1>
-          <p className="tagline">{frontmatter.tagline}</p>
-          <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
-          <Link to={frontmatter.cta.ctaLink} className="button">{frontmatter.cta.ctaText}<span class="icon -right"><RiArrowRightSLine /></span></Link>
-          <Link to={frontmatter.cta.ctaLink} className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">{frontmatter.cta.ctaText}<span class="icon -right"><RiArrowRightSLine /></span></Link>
-        </div>
-        <div>
-          {Image ? (
-            <Img
-              fluid={Image}
-              alt={frontmatter.title + ' - Featured image'}
-              className="featured-image"
-            />
-          ) : ""}
-        </div>
-      </div>
+
       <BlogListHome />
     </Layout>
   )
