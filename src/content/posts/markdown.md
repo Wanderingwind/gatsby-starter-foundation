@@ -1,9 +1,15 @@
 ---
 template: blog-post
-slug: /markdown
-date: 2020-05-09T05:53:16.102Z
 title: "Markdown: Syntax"
+slug: /markdown
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat.
+date: 2016-05-09 01:53
+description: Markdown is both awesome and terrible at the same time.
 featuredImage: /assets/mike-dorner-sf_1ZDA1YFw-unsplash.jpg
+author: Madeleine Deliee
 ---
 
 ## Overview
