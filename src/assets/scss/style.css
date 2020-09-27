@@ -40,6 +40,7 @@ code {
 
 main p {
   line-height: 1.5;
+  margin-bottom: 1.5em;
 }
 
 a {
@@ -136,6 +137,9 @@ a:hover {
   }
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .primary-container main {
   min-height: calc(100vh - 60px - 81px);
 }
