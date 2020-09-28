@@ -48,7 +48,7 @@ const HomePage = ({ data }) => {
               Writer. Teacher. Mother.
               <br className="hidden md:block" />
               A bit of a {' '}
-              <span className="inline-block text-deep-purple-accent-400">
+              <span className="inline-block text-purple-accent-700">
                 book-pusher.
               </span>
             </h2>
@@ -56,7 +56,7 @@ const HomePage = ({ data }) => {
 
           </div>
           <div className="flex items-center">
-            <Link to={frontmatter.cta.ctaLink} className="inline-flex mr-0 md:mr-4 items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">{frontmatter.cta.ctaText}<span class="icon -right"><RiArrowRightSLine /></span></Link>
+            <Link to={frontmatter.cta.ctaLink} className="inline-flex mr-0 md:mr-4 items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-purple-accent-700 hover:bg-purple-800 focus:shadow-outline focus:outline-none">{frontmatter.cta.ctaText}<span className="icon -right"><RiArrowRightSLine /></span></Link>
             <Link to="/about" className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">About Me</Link>
           </div>
         </div>

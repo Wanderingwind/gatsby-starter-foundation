@@ -11,6 +11,7 @@ body {
 body {
 	font-family: var(--font-family);
 	font-size: 18px;
+	overflow: unset;
 }
 code {
 	font-family: var(--font-family-mono);
@@ -23,9 +24,5 @@ main {
 	}
 }
 a {
-	color: var(--home-link-color);
 	text-decoration: none;
-	&:hover {
-		color: var(--home-link-hover-color);
-	}
 }

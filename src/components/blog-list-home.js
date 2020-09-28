@@ -6,11 +6,15 @@ import PostCard from "./post-card"
 
 const PostMaker = ({ data }) => (
   <section className="home-posts">
-    <h2>Latest Articles <span class="icon -right"><RiArrowDownLine /></span></h2>
+    <h2>Latest Articles <span className="icon -right"><RiArrowDownLine /></span></h2>
     <div className="grids col-1 sm-2 lg-3">
       {data}
     </div>
-    <Link className="button" to="/blog">See more<span class="icon -right"><RiArrowRightSLine /></span></Link>
+
+    <div className="text-center">
+      <Link to="/blog" className="text-center inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">See all articles<span className="icon -right"><RiArrowRightSLine /></span></Link>
+
+    </div>
   </section>
 )
 

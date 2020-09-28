@@ -2,7 +2,6 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import Logo from "./logo"
 import Navigation from "./navigation";
 
 import "../assets/scss/style.scss"
@@ -18,7 +17,7 @@ query LayoutQuery {
 }
 `
 
-const Layout = ({children, className}) => {
+const Layout = ({ children, className }) => {
 
   const { site } = useStaticQuery(query)
   const { siteTitle } = site.siteMetadata
@@ -26,13 +25,12 @@ const Layout = ({children, className}) => {
   return (
     <div className="primary-container">
       <Header>
-        <Logo title={siteTitle} />
-        <Navigation/>
+        <Navigation />
       </Header>
       <main className={"container " + className}>
         {children}
       </main>
-      <Footer/>
+      <Footer />
     </div>
   )
 }

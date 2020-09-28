@@ -20,6 +20,7 @@
   background: var(--header-bg);
   padding: 30px 20px;
 }
+
 .site-navigation {
   ul {
     list-style: none;
@@ -253,6 +254,13 @@ article img {
 		min-height: 50vh;
 		border-radius: 12px;
 	}
+	a {
+	color: var(--home-link-color);
+	text-decoration: none;
+	&:hover {
+		color: var(--home-link-hover-color);
+	}
+}
 }
 // Buttons 
 .button {
@@ -373,6 +381,8 @@ article img {
 	}
 	a {
 		display: inline-block;
+		color: var(--home-link-color);
+		text-decoration: none;
 		padding: 10px 20px;
 		font-weight: bold;
 		line-height: 1;
@@ -380,6 +390,9 @@ article img {
 			color: var(--header-bg);
 			pointer-events: none;
 		}
+		&:hover {
+		color: var(--home-link-hover-color);
+	}
 	}
 	&.-post {
 		text-align: inherit;

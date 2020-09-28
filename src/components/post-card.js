@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 
 const PostCard = ({ data }) => (
 
-  <div className="overflow-hidden hover:shadow-lg transition-shadow duration-300 bg-white rounded-lg shadow-sm">
+  <div className="overflow-hidden border hover:shadow-lg transition-shadow duration-300 bg-white rounded-lg shadow-sm">
     {data.frontmatter.featuredImage ?
       (
         <Link to={data.frontmatter.slug}>
@@ -18,7 +18,7 @@ const PostCard = ({ data }) => (
         </Link>
       ) : ""
     }
-    <div className="p-5 border border-t-0">
+    <div className="p-5 border-t-0">
       <p className="metamb-3 text-xs font-semibold tracking-wide uppercase">
         <time>{data.frontmatter.date}</time>
       </p>

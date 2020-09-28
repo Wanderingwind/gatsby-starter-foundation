@@ -32,6 +32,7 @@ body {
 body {
   font-family: var(--font-family);
   font-size: 18px;
+  overflow: unset;
 }
 
 code {
@@ -44,12 +45,7 @@ main p {
 }
 
 a {
-  color: var(--home-link-color);
   text-decoration: none;
-}
-
-a:hover {
-  color: var(--home-link-hover-color);
 }
 
 /*
@@ -444,6 +440,15 @@ article img {
   border-radius: 12px;
 }
 
+.blog-post a {
+  color: var(--home-link-color);
+  text-decoration: none;
+}
+
+.blog-post a:hover {
+  color: var(--home-link-hover-color);
+}
+
 .button {
   --padding: 20px;
   --margin: 20px;
@@ -602,6 +607,8 @@ article img {
 
 .pagination a {
   display: inline-block;
+  color: var(--home-link-color);
+  text-decoration: none;
   padding: 10px 20px;
   font-weight: bold;
   line-height: 1;
@@ -610,6 +617,10 @@ article img {
 .pagination a.is-active {
   color: var(--header-bg);
   pointer-events: none;
+}
+
+.pagination a:hover {
+  color: var(--home-link-hover-color);
 }
 
 .pagination.-post {
