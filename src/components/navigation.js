@@ -9,8 +9,8 @@ const Navigation = () => {
         <div className="relative flex items-center justify-between">
           <a
             href="/"
-            aria-label="Company"
-            title="Company"
+            aria-label="Madeleine Deliee"
+            title="Madeleine Deliee"
             className="inline-flex items-center"
           >
             <svg
@@ -35,9 +35,9 @@ const Navigation = () => {
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
               <a
-                href="/"
-                aria-label="Our product"
-                title="Our product"
+                href="/blog"
+                aria-label="My Musings"
+                title="My Musings"
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Blog
@@ -45,9 +45,9 @@ const Navigation = () => {
             </li>
             <li>
               <a
-                href="/"
-                aria-label="Our product"
-                title="Our product"
+                href="/about"
+                aria-label="About Me"
+                title="About Me"
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 About Me
@@ -56,9 +56,9 @@ const Navigation = () => {
 
             <li>
               <a
-                href="/"
-                aria-label="About us"
-                title="About us"
+                href="/contact"
+                aria-label="Contact Me"
+                title="Contact Me"
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Contact Me
@@ -115,7 +115,7 @@ const Navigation = () => {
                           <rect x="14" y="11" width="7" height="12" />
                         </svg>
                         <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                          Company
+                          MDeliee
                         </span>
                       </a>
                     </div>
@@ -139,54 +139,35 @@ const Navigation = () => {
                     <ul className="space-y-4">
                       <li>
                         <a
-                          href="/"
-                          aria-label="Our product"
-                          title="Our product"
+                          href="/blog"
+                          aria-label="My Musings"
+                          title="My Musings"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Product
+                          Blog
                         </a>
                       </li>
                       <li>
                         <a
-                          href="/"
-                          aria-label="Our product"
-                          title="Our product"
+                          href="/about"
+                          aria-label="About Me"
+                          title="About Me"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Features
+                          About Me
                         </a>
                       </li>
                       <li>
                         <a
-                          href="/"
-                          aria-label="Product pricing"
-                          title="Product pricing"
+                          href="/contact"
+                          aria-label="Contact Me"
+                          title="Contact Me"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Pricing
+                          Contact Me
                         </a>
                       </li>
-                      <li>
-                        <a
-                          href="/"
-                          aria-label="About us"
-                          title="About us"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          About us
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/"
-                          className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                          aria-label="Sign up"
-                          title="Sign up"
-                        >
-                          Sign up
-                        </a>
-                      </li>
+
                     </ul>
                   </nav>
                 </div>
