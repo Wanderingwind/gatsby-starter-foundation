@@ -90,5 +90,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-postcss`,
+    `gatsby-plugin-remove-serviceworker`,
   ],
 }
