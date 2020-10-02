@@ -3,7 +3,7 @@
 @import "lib/css-grid-utility";
 @import "tailwind";
 
-
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 // .primary-container {
 // 	display: grid;
 // 	grid-template-rows: 60px auto 60px;
@@ -115,6 +115,10 @@
   @media (max-width: $breakpoint-lg) {
     font-size: 20px;
   }
+}
+.logo-text{
+	font-family: 'Courgette', cursive;
+	font-size: 1.4em;
 }
 .home-banner {
 	padding: 60px 0;
