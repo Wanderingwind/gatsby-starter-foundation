@@ -9,6 +9,7 @@ date: 2018-05-08 16:12
 description: I expected that pregnancy would change my body. I was prepared to
   give up alcohol, sushi, and high heels. I didn’t expect that I’d have to
   change my antidepressant.
+featuredImage: /assets/bench-accounting-nvzvopqw0gc-unsplash.jpg
 author: Madeleine Deliee
 ---
 I expected that pregnancy would change my body. I was prepared to give up alcohol, sushi, and high heels. I didn’t expect that I’d have to change my antidepressant. It felt like such a part of my daily existence, it never occurred to me that it would be another sacrifice to The Baby—until my doctor lowered the boom. 
