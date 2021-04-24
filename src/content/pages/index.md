@@ -1,7 +1,7 @@
 ---
 template: index-page
 slug: /
-title: Maddy's Musings
+title: Madeleine Deliee
 tagline: Writer. Teacher. Mother. Book-pusher. <span class="inline-block
   text-deep-purple-accent-400">book-pusher.</span>
 featuredImage: /assets/madeleine-placeholder.jpg
